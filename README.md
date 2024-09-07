@@ -1,25 +1,17 @@
-# Expo News App Starter Template 👋
+# Expo InfoPulse App 👋
 
-This is a starter template for the expo news app tutorial on my YouTube channel.
+Ceci est une partie du code source 
 
-## Get started
+## Démarer
 
-1. Install dependencies
+1. Installer les dépendances 
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Lancer l'App
 
    ```bash
     npx expo start
    ```
-
-Extra dependencies added here
-
-- [Axios](https://www.npmjs.com/package/axios)
-- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/docs/install/)
-- [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
-- [Moment JS](https://www.npmjs.com/package/moment)
-
