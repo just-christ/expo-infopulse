@@ -3,30 +3,30 @@ import { Tabs } from 'expo-router'
 import { TabBar } from '@/components/TabBar'
 
 const TabLayout = () => {
-  return (
-    <Tabs tabBar={(props) => <TabBar {...props} />}>
+  return ( 
+    <Tabs tabBar={(props) => <TabBar {...props} />} screenOptions={{headerShown: false}}>
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: "Accueil",
         }}
       />
       <Tabs.Screen
         name="discover"
         options={{
-          title: "Discover",
+          title: "Découverte", 
         }}
       />
       <Tabs.Screen
         name="saved"
         options={{
-          title: "Saved",
+          title: "Sauvegardes",
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
-          title: "Settings",
+          title: "Paramètres",
         }}
       />
     </Tabs>

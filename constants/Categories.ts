@@ -1,14 +1,14 @@
 const newsCategoryList = [
   {
     id: 1,
-    title: 'All',
+    title: 'Tout',
     slug: '',
     selected: false,
   },
   {
     id: 2,
-    title: 'Politics',
-    slug: 'politics',
+    title: 'Politique',
+    slug: 'politique',
     selected: false,
   },
   {
@@ -19,8 +19,8 @@ const newsCategoryList = [
   },
   {
     id: 4,
-    title: 'Entertainment',
-    slug: 'entertainment',
+    title: 'Divertissement',
+    slug: 'divertissement',
     selected: false,
   },
   {
@@ -31,14 +31,14 @@ const newsCategoryList = [
   },
   {
     id: 6,
-    title: 'Technology',
-    slug: 'technology',
+    title: 'Technologie',
+    slug: 'technologie',
     selected: false,
   },
   {
     id: 7,
-    title: 'Business',
-    slug: 'business',
+    title: 'Affaires',
+    slug: 'affaires',
     selected: false,
   },
 ];
